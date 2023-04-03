@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+#main{
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    background: url(6.webp);
+}
+#area{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 100;
+    text-align: center;
+
+}
+#lily{
+    width: 120px;
+    height: 100px;
+    background: url('alice-sticker-alice-animated.gif');
+    background-size: 100%;
+    position: absolute;
+    margin-top: 400px;
+}
+#lily.freeze{
+    width: 120px;
+    height: 100px;
+    background: url('alice-sticker-alice-animated.gif');
+    background-size: 100%;
+    position: absolute;
+    margin-top: 400px;
+}
+#cloud{
+    width: 100px;
+    height: 100px;
+    background: url(cloud-chocotoy.gif);
+    background-size: 100%;
+}
+#cloud.freeze{
+    width: 100px;
+    height: 100px;
+    background: url(cloud-chocotoy.gif);
+    background-size: 100%;
+}
